@@ -1,1 +1,0 @@
-# pratiyush.github.io
