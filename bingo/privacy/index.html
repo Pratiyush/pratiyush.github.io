@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Bingo</title>
+<meta name="description" content="Privacy policy of the app Bingo for Android, iPhone and iPad: anonymous game rooms on Google Firebase, AdMob ads with consent, no accounts and no names.">
+<style>
+:root { color-scheme: light dark; --bg: #f6f7fb; --fg: #141a33; --muted: #59617d; --rule: #d8dcea; --accent: #1f3fae; --card: #ffffff; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0b1437; --fg: #f4f6ff; --muted: #a9b3d6; --rule: #2a3770; --accent: #ffc233; --card: #16224f; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+nav { display: flex; gap: 16px; font-weight: 600; margin-bottom: 8px; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+article { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 8px 20px 20px; margin: 16px 0 32px; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin: 16px 0 8px; }
+h2 { font-size: 1.1rem; line-height: 1.3; margin: 28px 0 6px; }
+p, li { margin: 6px 0; }
+ul { padding-left: 1.25em; margin: 6px 0; }
+.facts { color: var(--muted); margin: 0 0 8px; }
+.facts p { margin: 2px 0; }
+footer { color: var(--muted); font-size: 0.9rem; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#en">English</a><a href="#de">Deutsch</a></nav>
+<article id="en" lang="en">
+<h1>Privacy policy</h1>
+<div class="facts">
+<p>Bingo · effective 8 November 2026</p>
+<p>Developer (controller): Pratiyush Kumar Singh, Im Dammwald 8b, 61381 Friedrichsdorf, Germany</p>
+<p>Contact: pratiyush1@gmail.com</p>
+<p>Online: <a href="https://pratiyush.github.io/bingo/privacy/">https://pratiyush.github.io/bingo/privacy/</a></p>
+</div>
+<h2>Summary</h2>
+<p>Bingo is an app for Android phones and tablets, iPhone and iPad for hosting and playing 75-ball bingo with friends and for printing bingo cards. To let players join a game with a code, the app keeps small game rooms on Google Firebase (section 2). They hold an anonymous ID, a ticket number and times, never your name, email or phone number. The app shows ads from Google AdMob (section 3).</p>
+<p>There are no accounts and no sign-up, and we use no analytics or crash-reporting tools of our own. Section 10 shows how to delete your data.</p>
+<h2>1. Data stored on your device</h2>
+<p>The app keeps these in its private storage on your device:</p>
+<ul>
+<li>the cards you joined (game code, ticket number, the numbers you marked, whether you claimed bingo),</li>
+<li>the game you are hosting (its code and the balls called so far),</li>
+<li>your settings (calling aloud on or off, circling called numbers for you on or off),</li>
+<li>how many times you have opened the app, used to space out full-screen ads,</li>
+<li>your ad consent choices, stored by Google’s consent tool (section 3).</li>
+</ul>
+<p>Cards you generate as a PDF are made on your device and saved or shared only where you choose. Uninstalling the app (on Android also clearing its storage) deletes everything in this section.</p>
+<h2>2. Game rooms (Google Firebase)</h2>
+<p>When you host or join a game, the app signs in to Google Firebase anonymously: Firebase gives the app a random user ID that is not linked to your name, email, phone number or Google account. With it, the app stores in Firebase’s database (Cloud Firestore, servers in Frankfurt, Germany):</p>
+<ul>
+<li>for a host: the game code, the anonymous ID of the host, the balls called and when the room was created,</li>
+<li>for a player: the anonymous ID, the ticket number of the card, when they joined and when they claimed bingo.</li>
+</ul>
+<p>The host of a game sees the ticket numbers of its players and the order in which they claimed bingo; players see the balls called. Nobody can list or search for games: a room opens only with its exact code. To run the service and prevent abuse, Firebase also processes your IP address and technical data about your device and app. Google acts as our processor under its data processing terms (<a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>).</p>
+<p>Game rooms are kept until they are deleted. We delete a room or your entry in it whenever you ask (section 10), and we plan to delete rooms automatically after 30 days; this policy will name the date when that applies.</p>
+<h2>3. Advertising (Google AdMob)</h2>
+<p>The app shows a banner at the bottom of the home and join screens and, at most every few minutes, a full-screen ad when you leave a finished game or the PDF pages. Never during a game. Ads are muted and limited to content rated for general and parental-guidance audiences. They are served by Google’s Mobile Ads SDK, which collects the following and shares it with Google:</p>
+<ul>
+<li>your IP address, which can indicate your approximate location,</li>
+<li>device identifiers: on Android the advertising ID and the app set ID; on iPhone and iPad the identifier for vendors (IDFV), see below,</li>
+<li>how you use the app and its ads, such as app launches and taps on ads,</li>
+<li>diagnostic information, such as app launch time, hang rate and energy use.</li>
+</ul>
+<p>Google uses this data to show and measure ads, for analytics and to prevent fraud. It is encrypted in transit. On devices that support them, the SDK may also use Android’s privacy-preserving advertising APIs (Privacy Sandbox), which you control in your device’s privacy settings.</p>
+<p>On iPhone and iPad the app does not ask for permission to track you (Apple’s App Tracking Transparency), so the SDK never receives your device’s advertising identifier (IDFA). It uses the identifier for vendors (IDFV) instead. Ad installs and clicks are measured with Apple’s SKAdNetwork, which does not identify you.</p>
+<p>Consent (EEA, UK and Switzerland): before any ad is requested, Google’s consent form lets you accept, choose purposes and ad partners, or refuse. If you refuse, Google may still show limited ads that are not personalised and do not use your advertising ID. You can change your choice at any time under Settings › Privacy choices in the app.</p>
+<p>Everywhere: you can reset or delete your advertising ID, or opt out of personalised ads, in your device settings. How Google uses information from apps that show its ads: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+<h2>4. Calling aloud</h2>
+<p>When the host calls a ball, your device’s own text-to-speech engine (for example Google’s or Apple’s) reads it out. That engine handles the text under its own privacy policy; some engines can use the internet to speak. The app sends nothing to us.</p>
+<h2>5. What the app does not do</h2>
+<p>It has no account, no purchases, and no analytics or crash-reporting tools of our own. It never asks for your name. We do not sell or rent personal data or build profiles of you. Personalised ads are Google’s (section 3), and in the EEA, UK and Switzerland only with your consent. The app cannot access your location, camera, microphone, contacts or photos; saving a PDF uses your device’s own file picker.</p>
+<p>If you install the app from Google Play or the App Store, Google or Apple may collect crash reports and installation statistics under their own privacy policies and your device settings. We see only aggregated, anonymised reports.</p>
+<h2>6. Permissions</h2>
+<p>The app asks for no permission that your device would show you. In the background it uses internet and network-state access (game rooms and ads) and the advertising ID (ads), plus technical permissions that Google’s libraries add. On iPhone and iPad it asks for no permission either, including no tracking.</p>
+<h2>7. Backups</h2>
+<p>If device backup is on, Android or iCloud may include the data from section 1 in a backup to your own account. That backup belongs to you; we cannot see it.</p>
+<h2>8. If you contact us</h2>
+<p>If you email us, we use your address and message only to answer you, and delete them 12 months after the matter is closed, unless the law requires us to keep them longer.</p>
+<h2>9. Legal bases and your rights (EEA, UK and Switzerland)</h2>
+<ul>
+<li>Storing your cards and settings on your device: strictly necessary for the app you chose to use (§ 25(2) no. 2 TDDDG in Germany).</li>
+<li>Game rooms: needed to provide the multiplayer game you asked to host or join (Art. 6(1)(b) GDPR) and our legitimate interest in keeping it secure (Art. 6(1)(f) GDPR).</li>
+<li>Ads: your consent (Art. 6(1)(a) GDPR and § 25(1) TDDDG). Limited ads shown without consent: our legitimate interest in funding a free app and preventing fraud (Art. 6(1)(f) GDPR).</li>
+<li>Emails you send us: answering your request (Art. 6(1)(b) and (f) GDPR).</li>
+</ul>
+<p>You have the right to access, correct and delete your data, to restrict or object to its processing, to data portability, to withdraw your consent at any time (Settings › Privacy choices) and to lodge a complaint with a data protection authority, for example the one where you live. Because game rooms are anonymous, we can find your entry only from the game code and your ticket number. We answer requests within one month.</p>
+<p>Game rooms stay on servers in Germany. Google may process advertising and support data outside your country, including in the United States, under safeguards such as the EU-U.S. Data Privacy Framework and standard contractual clauses.</p>
+<h2 id="delete-data">10. How to delete your data</h2>
+<ul>
+<li>On your device: uninstalling the app (or, on Android, clearing its storage) deletes your cards, hosted game and settings.</li>
+<li>Game rooms: email pratiyush1@gmail.com with the game code and, as a player, your ticket number (shown on your card). We delete the room, or your entry in it, within 30 days and confirm by email.</li>
+<li>Advertising: reset or delete your advertising ID in your device settings, and change or withdraw your ad consent under Settings › Privacy choices. Data Google already holds follows Google’s retention rules (<a href="https://policies.google.com/technologies/retention">https://policies.google.com/technologies/retention</a>).</li>
+</ul>
+<h2>11. Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect personal data from children. If you think a child’s data was processed, contact us and we will delete it.</p>
+<h2>12. Changes and contact</h2>
+<p>If this policy changes, the new version appears at <a href="https://pratiyush.github.io/bingo/privacy/">https://pratiyush.github.io/bingo/privacy/</a> with a new effective date.</p>
+<p>Questions, requests or complaints: pratiyush1@gmail.com.</p>
+</article>
+<article id="de" lang="de">
+<h1>Datenschutzerklärung</h1>
+<div class="facts">
+<p>Bingo · gültig ab 8. November 2026</p>
+<p>Verantwortlicher: Pratiyush Kumar Singh, Im Dammwald 8b, 61381 Friedrichsdorf, Deutschland</p>
+<p>Kontakt: pratiyush1@gmail.com</p>
+</div>
+<h2>Kurz gesagt</h2>
+<p>Bingo ist eine App für Android, iPhone und iPad, um mit Freunden 75-Kugel-Bingo zu veranstalten und zu spielen und Bingokarten zu drucken. Damit Mitspieler einem Spiel per Code beitreten können, speichert die App kleine Spielräume bei Google Firebase (Abschnitt 2). Sie enthalten eine anonyme ID, eine Ticketnummer und Zeitpunkte, nie deinen Namen, deine E-Mail-Adresse oder Telefonnummer. Die App zeigt Werbung von Google AdMob (Abschnitt 3).</p>
+<p>Es gibt keine Konten und keine Registrierung, und wir nutzen keine eigenen Analyse- oder Absturzberichts-Tools. Wie du deine Daten löschst, steht in Abschnitt 10.</p>
+<h2>1. Daten auf deinem Gerät</h2>
+<p>Die App speichert in ihrem privaten Speicher auf deinem Gerät:</p>
+<ul>
+<li>die Karten, mit denen du beigetreten bist (Spielcode, Ticketnummer, deine markierten Zahlen, ob du Bingo gerufen hast),</li>
+<li>das Spiel, das du leitest (Code und bisher gezogene Kugeln),</li>
+<li>deine Einstellungen (Ansage an oder aus, gezogene Zahlen automatisch einkreisen an oder aus),</li>
+<li>wie oft du die App geöffnet hast, um Vollbild-Anzeigen zu verteilen,</li>
+<li>deine Einwilligungsentscheidung zur Werbung, gespeichert von Googles Einwilligungs-Tool (Abschnitt 3).</li>
+</ul>
+<p>Karten, die du als PDF erzeugst, entstehen auf deinem Gerät und werden nur dort gespeichert oder geteilt, wo du es wählst. Deinstallieren der App (unter Android auch Speicher löschen) entfernt alles aus diesem Abschnitt.</p>
+<h2>2. Spielräume (Google Firebase)</h2>
+<p>Wenn du ein Spiel leitest oder beitrittst, meldet sich die App anonym bei Google Firebase an: Firebase vergibt eine zufällige Nutzer-ID, die nicht mit deinem Namen, deiner E-Mail, Telefonnummer oder deinem Google-Konto verbunden ist. Damit speichert die App in der Firebase-Datenbank (Cloud Firestore, Server in Frankfurt am Main):</p>
+<ul>
+<li>für die Spielleitung: Spielcode, anonyme ID, gezogene Kugeln und Erstellungszeitpunkt,</li>
+<li>für Mitspieler: anonyme ID, Ticketnummer der Karte, Zeitpunkt des Beitritts und des Bingo-Rufs.</li>
+</ul>
+<p>Die Spielleitung sieht die Ticketnummern ihrer Mitspieler und die Reihenfolge der Bingo-Rufe; Mitspieler sehen die gezogenen Kugeln. Spiele lassen sich nicht auflisten oder suchen: Ein Raum öffnet sich nur mit seinem genauen Code. Für den Betrieb und gegen Missbrauch verarbeitet Firebase außerdem deine IP-Adresse und technische Daten zu Gerät und App. Google handelt dabei als unser Auftragsverarbeiter (<a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>).</p>
+<p>Spielräume bleiben gespeichert, bis sie gelöscht werden. Auf Wunsch löschen wir einen Raum oder deinen Eintrag darin jederzeit (Abschnitt 10). Wir planen, Räume nach 30 Tagen automatisch zu löschen; diese Erklärung nennt das Datum, ab dem das gilt.</p>
+<h2>3. Werbung (Google AdMob)</h2>
+<p>Die App zeigt ein Banner unten auf dem Start- und Beitrittsbildschirm und höchstens alle paar Minuten eine Vollbild-Anzeige, wenn du ein beendetes Spiel oder die PDF-Seiten verlässt. Nie während eines Spiels. Die Anzeigen sind stumm und auf Inhalte für allgemeines Publikum beschränkt. Sie kommen über Googles Mobile Ads SDK, das Folgendes erhebt und an Google übermittelt:</p>
+<ul>
+<li>deine IP-Adresse, aus der sich dein ungefährer Standort ergeben kann,</li>
+<li>Gerätekennungen: unter Android die Werbe-ID und die App-Set-ID; auf iPhone und iPad die Kennung für Anbieter (IDFV),</li>
+<li>wie du die App und ihre Anzeigen nutzt, etwa App-Starts und Tipps auf Anzeigen,</li>
+<li>Diagnosedaten wie Startzeit, Hänger und Energieverbrauch.</li>
+</ul>
+<p>Google nutzt diese Daten, um Anzeigen auszuliefern und zu messen, für Analysen und zur Betrugsvermeidung. Sie werden verschlüsselt übertragen. Auf iPhone und iPad fragt die App nicht nach der Erlaubnis zum Tracking (App Tracking Transparency), daher erhält das SDK nie die Werbe-ID (IDFA) deines Geräts.</p>
+<p>Einwilligung (EWR, Vereinigtes Königreich, Schweiz): Bevor eine Anzeige angefragt wird, kannst du in Googles Einwilligungsformular zustimmen, Zwecke und Partner wählen oder ablehnen. Lehnst du ab, kann Google trotzdem eingeschränkte, nicht personalisierte Anzeigen ohne Werbe-ID zeigen. Du kannst deine Wahl jederzeit unter Einstellungen › Privacy choices ändern.</p>
+<p>Überall: Deine Werbe-ID kannst du in den Geräteeinstellungen zurücksetzen oder löschen und personalisierte Werbung abschalten. Wie Google Daten aus Apps mit seiner Werbung nutzt: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+<h2>4. Ansage</h2>
+<p>Ruft die Spielleitung eine Kugel auf, liest die Sprachausgabe deines Geräts (etwa von Google oder Apple) sie vor. Diese verarbeitet den Text nach ihrer eigenen Datenschutzerklärung; manche nutzen dafür das Internet. An uns wird nichts gesendet.</p>
+<h2>5. Was die App nicht tut</h2>
+<p>Sie hat kein Konto, keine Käufe und keine eigenen Analyse- oder Absturzberichts-Tools. Sie fragt nie nach deinem Namen. Wir verkaufen oder vermieten keine Daten und erstellen keine Profile. Die App hat keinen Zugriff auf Standort, Kamera, Mikrofon, Kontakte oder Fotos; zum Speichern eines PDFs dient die Dateiauswahl deines Geräts.</p>
+<h2>6. Berechtigungen</h2>
+<p>Die App fragt nach keiner Berechtigung, die dein Gerät dir anzeigen würde. Im Hintergrund nutzt sie Internet- und Netzwerkzugriff (Spielräume und Werbung) und die Werbe-ID (Werbung) sowie technische Berechtigungen, die Googles Bibliotheken hinzufügen.</p>
+<h2>7. Sicherungen</h2>
+<p>Ist die Gerätesicherung an, können Android oder iCloud die Daten aus Abschnitt 1 in eine Sicherung in deinem eigenen Konto aufnehmen. Diese gehört dir; wir sehen sie nicht.</p>
+<h2>8. Wenn du uns schreibst</h2>
+<p>Schreibst du uns eine E-Mail, nutzen wir Adresse und Nachricht nur, um dir zu antworten, und löschen sie 12 Monate nach Abschluss, sofern das Gesetz keine längere Aufbewahrung verlangt.</p>
+<h2>9. Rechtsgrundlagen und deine Rechte</h2>
+<ul>
+<li>Speichern von Karten und Einstellungen auf deinem Gerät: unbedingt erforderlich für die gewünschte App (§ 25 Abs. 2 Nr. 2 TDDDG).</li>
+<li>Spielräume: erforderlich für das Mehrspieler-Spiel, das du leiten oder dem du beitreten willst (Art. 6 Abs. 1 lit. b DSGVO), und unser berechtigtes Interesse an dessen Sicherheit (Art. 6 Abs. 1 lit. f DSGVO).</li>
+<li>Werbung: deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eingeschränkte Werbung ohne Einwilligung: unser berechtigtes Interesse, eine kostenlose App zu finanzieren und Betrug zu verhindern (Art. 6 Abs. 1 lit. f DSGVO).</li>
+<li>E-Mails an uns: Beantwortung deiner Anfrage (Art. 6 Abs. 1 lit. b und f DSGVO).</li>
+</ul>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch, Datenübertragbarkeit, Widerruf deiner Einwilligung jederzeit (Einstellungen › Privacy choices) und Beschwerde bei einer Datenschutzaufsichtsbehörde. Da Spielräume anonym sind, finden wir deinen Eintrag nur über Spielcode und Ticketnummer. Wir antworten innerhalb eines Monats. Spielräume bleiben auf Servern in Deutschland; Google kann Werbe- und Supportdaten auch außerhalb der EU verarbeiten, etwa in den USA, auf Grundlage des EU-U.S. Data Privacy Framework und von Standardvertragsklauseln.</p>
+<h2 id="daten-loeschen">10. Daten löschen</h2>
+<ul>
+<li>Auf deinem Gerät: Deinstallieren der App (oder unter Android Speicher löschen) entfernt Karten, geleitetes Spiel und Einstellungen.</li>
+<li>Spielräume: Schreib an pratiyush1@gmail.com mit dem Spielcode und, als Mitspieler, deiner Ticketnummer (steht auf deiner Karte). Wir löschen den Raum oder deinen Eintrag innerhalb von 30 Tagen und bestätigen es per E-Mail.</li>
+<li>Werbung: Werbe-ID in den Geräteeinstellungen zurücksetzen oder löschen, Einwilligung unter Einstellungen › Privacy choices ändern oder widerrufen. Bei Google vorhandene Daten unterliegen Googles Aufbewahrungsregeln.</li>
+</ul>
+<h2>11. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder unter 13 Jahren, und wir erheben wissentlich keine Daten von Kindern. Wenn du meinst, dass Daten eines Kindes verarbeitet wurden, melde dich, und wir löschen sie.</p>
+<h2>12. Änderungen und Kontakt</h2>
+<p>Ändert sich diese Erklärung, erscheint die neue Fassung mit neuem Datum unter <a href="https://pratiyush.github.io/bingo/privacy/">https://pratiyush.github.io/bingo/privacy/</a>. Fragen, Anfragen oder Beschwerden: pratiyush1@gmail.com.</p>
+</article>
+<footer><p>Bingo · Pratiyush Kumar Singh</p></footer>
+</main>
+</body>
+</html>
